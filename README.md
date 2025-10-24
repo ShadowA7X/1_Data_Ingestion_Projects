@@ -23,4 +23,10 @@ B) If you want that the CSV gets new records every day at 12PM, then you need to
 
 You can use the "pwd" command to get the full path faster.
 
+Once you paste the command, you need to press Esc and then write :wq to save the file and exit.
+
+If eveything goes well, you will see the "crontab: installing new crontab". This means that this job will be executed
+according to the schedule you defined.
+
+You can verify the Job by using the command: crontab -l
 
